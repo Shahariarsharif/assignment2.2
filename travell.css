@@ -254,15 +254,15 @@ background: rgba(41, 206, 246, 0.05);
        }
 
 .grtform{
-    margin-left: 200px;
-
+    margin-left: 150px;
+    
     flex-direction: column;
 }
 .input{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .input2{
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 .three{
