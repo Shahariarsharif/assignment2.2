@@ -1,0 +1,165 @@
+.one{
+   color: orangered;}
+.head{
+    display: flex;
+    align-items: center;
+    padding: 20px 250px;
+    
+}
+
+   .Himg{
+    display: flex;
+    align-items: center;
+   }
+   .title{
+    margin-left: 15px;
+    
+   }
+   .buttons{
+    margin-left: 430px;
+    border: none;
+    display: flex;
+    width: 50px;
+   }
+   .two{
+    margin-left: 50px;
+    border: white;
+   }
+   .three{
+    width: 1650px;
+    display: flex;
+  
+   }
+   .four{
+    margin-left: 250px;
+   }
+   .five{
+    margin-left: 170px;
+   }
+   .greeting{
+    background-image: url(images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 1650px;
+    height: 600px;
+    align-items: center;
+    
+    
+   }
+   .grt-title{
+    color: rgba(252, 252, 252, 0.932);
+margin-left: 700px;
+padding-top: 100px;
+   }
+   .titlename{
+  
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .grtform{
+    color: rgb(52, 56, 59);
+    display: flex;
+    margin-left: 550px;
+   }
+  .input{
+    border-radius: 7px;
+    width: 130px;
+    font-size: large;
+    size: 10px;
+    margin-right: 20px;
+  }
+  .input2{
+    border-radius: 7px;
+    width: 130px;
+    color: aliceblue;
+    font-size: larger;
+   
+    background-color: orangered;
+  }
+  .choose{
+    font-size: xx-large;
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .choose2{
+    text-align: center;
+  }
+  .row{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .six{
+   width: 100%;
+   height: 100%;
+   margin-left: 250px;
+  }
+  .seven{
+   text-align: center;
+  }
+  .eight{
+    text-align: center;
+  }
+ 
+
+  @media screen and (max-width:600px){
+
+.buttons{
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+    .greeting{
+        background-image: url(images/Group\ 13\ \(1\)\ \(1\).png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        
+        
+       }
+       .grt-title{
+        color: rgba(252, 252, 252, 0.932);
+        margin-left: 150px;
+       }
+
+.grtform{
+    margin-left: 200px;
+
+    flex-direction: column;
+}
+.input{
+    margin-top: 20px;
+}
+.input2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.three{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+.four{
+    margin-left: 30px;
+}
+.five{
+    margin-left: 10px;
+}
+.choose .seven{
+    margin-left: 100px;
+}
+.choose2{
+    margin-left: 30px;
+}
+.row{
+    flex-direction: column;
+    
+}
+.six{
+    margin-left: 4px;
+}
+  }
+    
